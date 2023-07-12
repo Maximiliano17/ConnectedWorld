@@ -1,9 +1,12 @@
+//Styles
 import styles from "../Module/Slider.module.css"
+//Imagenes
 import img1 from '../assets/img/1.png';
 import img2 from '../assets/img/2.png';
 import img3 from '../assets/img/3.png';
 import img4 from '../assets/img/4.png';
-import {Slideshow, Slide, TextoSlide} from '../Components/Slider'  
+//Importes
+import {Slideshow, Slide} from '../Components/Slider'  
 
 const Home = () => {
     return (
@@ -14,33 +17,25 @@ const Home = () => {
 					<a target="_blanck" href="https://petzify-pag.vercel.app/">
 						<img src={img1} alt=""/>
 					</a>
-					<TextoSlide>
-						<p>!Petzify En Las Regionales¡</p>
-					</TextoSlide>
+					 
 				</Slide>
 				<Slide>
-        <a target="_blanck" href="https://petzify-pag.vercel.app/">
+        <a target="_blanck" href="https://www.youtube.com/watch?v=CM9TmrkvC6I">
 						<img src={img2} alt=""/>
 					</a>
-					<TextoSlide>
-						<p>15% descuento en productos Apple</p>
-					</TextoSlide>
+					 
 				</Slide>
         <Slide>
         <a target="_blanck" href="https://petzify-pag.vercel.app/">
 						<img src={img3} alt=""/>
 					</a>
-					<TextoSlide>
-						<p>15% descuento en productos Apple</p>
-					</TextoSlide>
+					 
 				</Slide>
         <Slide>
         <a target="_blanck" href="https://petzify-pag.vercel.app/">
 						<img src={img4} alt=""/>
 					</a>
-					<TextoSlide>
-						<p>15% descuento en productos Apple</p>
-					</TextoSlide>
+					 
 				</Slide>
 			</Slideshow>
          </div>
