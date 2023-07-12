@@ -1,0 +1,73 @@
+/*Estilos por defecto*/
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    scroll-behavior: smooth;
+}
+
+/*Header*/
+
+.header{
+    width:100%;
+    height:4rem;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.header p{
+    color: #3068ea;
+}
+
+.logo{
+    width:20%;
+    height:100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.items li{
+    list-style: none;
+    color:#3e3b3b;
+}
+
+.opciones{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opciones img{
+    height: 60%;
+}

@@ -1,0 +1,19 @@
+ /*Estilos por defecto*/
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    scroll-behavior: smooth; 
+}
+
+/*Slider*/
+
+.contanier{
+    max-width: 1000px;
+    margin: 50px auto;
+    overflow: hidden;
+}
