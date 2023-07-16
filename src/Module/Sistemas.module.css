@@ -17,51 +17,43 @@
     width:100%;
     height:100vh;    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    background:#e6e0e0;
 }
 
 .tarjeta{
-    width: 25%;
-    height: 90%;
+    width: 90%;
+    height: 15%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
-    border:solid 1px #6d6565;
-    border-radius: 15px;
     background: #fff;
 }
 
-.tarjeta img{
-    width: 90%;
-    height: 40%;
+.planes{
+    width: 30%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    border-radius: 15px;
 }
 
 .informacion{
-    width: 90%;
-    height: 50%;
+    width: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    border-radius: 15px;
-    border:solid 1px #d2d2d2;
-    gap:1rem;
+    gap:.5rem;
 }
 
-.informacion button{
-    width: 60%;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: orange;
-    border-style: none;
-    border-radius: 15px;
-    color:white;
+.planes img{
+    height: 90%;  
+}
+
+/*Responsive Desing*/
+
+@media(max-width: 1400px){
+
 }
